@@ -14,29 +14,29 @@ nukkit.data.saveError=Impossible d'enregistrer le joueur "%1$2s": %2$2s
 nukkit.level.notFound=Niveau "%1$2s" introuvable
 nukkit.level.loadError=Impossible de charger le niveau "%1$2s": %2$2s
 nukkit.level.generationError=Impossible de générer le niveau "%1$2s" : %2$2s
-nukkit.level.tickError=Could not tick level "%1$2s": %2$2s
+nukkit.level.tickError=Impossible de charger le niveau "%1$2s": %2$2s
 nukkit.level.chunkUnloadError=Erreur lors du déchargement d'un chunk : %1$2s
 nukkit.level.backgroundGeneration=Le point apparition pour le niveau "%1$2s" est générée en arrière-plan
 nukkit.level.defaultError=Aucun niveau par défaut n'a été chargé
 nukkit.level.preparing=Préparation du niveau "%1$2s"
 nukkit.level.unloading=Déchargement du niveau «%1$2s »
-nukkit.level.updating=Old level data found for "%1$2s", converting format
+nukkit.level.updating=Données de niveau de l'ancien trouvée pour "%1$2s", format de conversion
 
-nukkit.server.start=Starting Minecraft: Bedrock Edition server version %1$2s
-nukkit.server.networkError=[Network] Stopped interface %1$2s due to %2$2s
-nukkit.server.networkStart=Opening server on %1$2s:%2$2s
-nukkit.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
-nukkit.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
-nukkit.server.license=%1$2s is distributed under the GPL License
-nukkit.server.tickOverload=Can't keep up! Is the server overloaded?
-nukkit.server.startFinished=Done (%1$2ss)! For help, type "help" or "?"
-nukkit.server.defaultGameMode=Default game type: %1$2s
-nukkit.server.query.start=Starting GS4 status listener
-nukkit.server.query.info=Setting query port to %1$2s
-nukkit.server.query.running=Query is running on %1$2s:%2$2s
-nukkit.server.rcon.emptyPasswordError=Failed to start RCON: password is empty
-nukkit.server.rcon.startupError=Failed to start RCON: %1$2s
-nukkit.server.rcon.running=RCON is running on %1$2s:%2$2s
+nukkit.server.start=Démarrage du serveur Minecraft: Bedrock Edition version %1$2s
+nukkit.server.networkError=[Network] Interface arrêtée %1$2s due à %2$2s
+nukkit.server.networkStart=Ouverture du serveur sur %1$2s:%2$2s
+nukkit.server.info=Ce serveur utilise %1$2s version %2$2s%3$2s (API %4$2s)
+nukkit.server.info.extended=Ce serveur tourne sur %1$2s%2$2s avec l'implémentation de l'API version %3$2s pour Minecraft: Bedrock Edition %4$2s (version du protocole: %5$2s)
+nukkit.server.license=%1$2s est distribué sous la licence GPL
+nukkit.server.tickOverload=Impossible de rester debout ! Le serveur est-il surchargé ?
+nukkit.server.startFinished=Terminé (%1$2ss)! Pour obtenir de l'aide, tapez "/aide" ou "?"
+nukkit.server.defaultGameMode=Type de jeu par défaut : %1$2s
+nukkit.server.query.start=Démarrage de l'écoute de statut GS4
+nukkit.server.query.info=Paramétrage du port de requête à %1$2s
+nukkit.server.query.running=La requête tourne sur %1$2s:%2$2s
+nukkit.server.rcon.emptyPasswordError=Échec du démarrage de la RCON : le mot de passe est vide
+nukkit.server.rcon.startupError=Impossible de démarrer RCON : %1$2s
+nukkit.server.rcon.running=RCON tourne sur %1$2s:%2$2s
 
 nukkit.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
 nukkit.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
@@ -52,7 +52,7 @@ nukkit.command.plugins.description=Gets a list of plugins running on the server
 nukkit.command.plugins.success=Plugins (%1$2s): %2$2s
 nukkit.command.plugins.usage=/plugins
 
-nukkit.command.status.description=Reads back the server's performance.
+nukkit.command.status.description=Retourne les performances du serveur.
 nukkit.command.status.usage=/status
 
 nukkit.command.timings.description=Records timings to see performance of the server.
@@ -109,5 +109,4 @@ nukkit.resources.success=Successfully loaded %1$2s resource packs
 nukkit.resources.zip.not-found=File '%1$2s' is not found
 nukkit.resources.zip.no-manifest='manifeste.json' n'est pas trouvé\n
 nukkit.resources.zip.invalid-manifest='manifeste.json' est invalide ou incomplet\n
-
 
