@@ -4,25 +4,25 @@
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-nukkit.language.selected=Selected %1$2s as the default locale.
+nukkit.language.selected=Selecionado %1$2s como a linguagem padrão.
 
-nukkit.data.playerNotFound=Player data not found for "%1$2s", creating new profile
-nukkit.data.playerCorrupted=Corrupted data found for "%1$2s", creating new profile
-nukkit.data.playerOld=Old Player data found for "%1$2s", upgrading profile
-nukkit.data.saveError=Could not save player "%1$2s": %2$2s
+nukkit.data.playerNotFound=Dados do jogador "%1$2s" não foram encontrados, a criar um perfil novo
+nukkit.data.playerCorrupted=Dados corrompidos foram encontrados para "%1$2s", a criar um perfil novo
+nukkit.data.playerOld=Dados antigos de jogador encontrados para "%1$2s", a criar um perfil novo
+nukkit.data.saveError=Não foi possível guardar o jogador "%1$2s": %2$2s
 
-nukkit.level.notFound=Level "%1$2s" not found
-nukkit.level.loadError=Could not load level "%1$2s": %2$2s
-nukkit.level.generationError=Could not generate level "%1$2s": %2$2s
-nukkit.level.tickError=Could not tick level "%1$2s": %2$2s
-nukkit.level.chunkUnloadError=Error while unloading a chunk: %1$2s
-nukkit.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being generated in the background
-nukkit.level.defaultError=No default level has been loaded
-nukkit.level.preparing=Preparing level "%1$2s"
-nukkit.level.unloading=Unloading level "%1$2s"
-nukkit.level.updating=Old level data found for "%1$2s", converting format
+nukkit.level.notFound=Nível "%1$2s" não encontrado
+nukkit.level.loadError=Não foi possível carregar o nível "%1$2s": %2$2s
+nukkit.level.generationError=Não foi possível gerar o nível "%1$2s": %2$2s
+nukkit.level.tickError=Não foi possível fazer tick no nível "%1$2s": %2$2s
+nukkit.level.chunkUnloadError=Erro ao descarregar um chunk: %1$2s
+nukkit.level.backgroundGeneration=Terreno de spawn para o nível "%1$2s" está a ser gerado em segundo plano
+nukkit.level.defaultError=Nenhum nível padrão foi carregado
+nukkit.level.preparing=A preparar o nível "%1$2s"
+nukkit.level.unloading=A descarregar o nível "%1$2s"
+nukkit.level.updating=Dados antigos de nível encontrados para "%1$2s", a converter o formato
 
-nukkit.server.start=Starting Minecraft: Bedrock Edition server version %1$2s
+nukkit.server.start=A iniciar servidor de Minecraft: Bedrock Edition versão %1$2s
 nukkit.server.networkError=[Network] Stopped interface %1$2s due to %2$2s
 nukkit.server.networkStart=Opening server on %1$2s:%2$2s
 nukkit.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
@@ -109,5 +109,4 @@ nukkit.resources.success=Successfully loaded %1$2s resource packs
 nukkit.resources.zip.not-found=File '%1$2s' is not found
 nukkit.resources.zip.no-manifest='manifest.json' is not found
 nukkit.resources.zip.invalid-manifest='manifest.json' is invalid or incomplete
-
 
