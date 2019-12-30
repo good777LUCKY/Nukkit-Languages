@@ -65,14 +65,14 @@ nukkit.command.timings.verboseDisable=Desativado timings detalhados
 nukkit.command.timings.reset=Timings foram reinicializados
 nukkit.command.timings.rcon=Aviso: Timings feitos a partir do RCON causarão lag spikes, você deve usar /timings report pelo jogo ou console
 nukkit.command.timings.uploadStart=Preparando relatório de timings...
-nukkit.command.timings.uploadError=Upload Error: %1$2s: %2$2s, check logs for more information
-nukkit.command.timings.reportError=An error happened while pasting the report, check logs for more information
-nukkit.command.timings.timingsLocation=View timings report: %1$2s
-nukkit.command.timings.timingsResponse=Timings response: %1$2s
-nukkit.command.timings.timingsWrite=Timings written to %1$2s
+nukkit.command.timings.uploadError=Erro de upload: %1$2s: %2$2s, verifique os logs para mais informações
+nukkit.command.timings.reportError=Um erro ocorreu ao colar o relatório, verifique os logs para mais informações
+nukkit.command.timings.timingsLocation=Veja o relatório de timings: %1$2s
+nukkit.command.timings.timingsResponse=Resposta dos timings: %1$2s
+nukkit.command.timings.timingsWrite=Timings escritos para %1$2s
 
-nukkit.crash.create=An unrecoverable error has occurred and the server has crashed. Creating a crash dump
-nukkit.crash.error=Could not create crash dump: %1$2s
+nukkit.crash.create=Um erro irrecuperável ocorreu e o servidor crashou. A criar um crash dump
+nukkit.crash.error=Não foi possível criar um crash dump: %1$2s
 nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
 nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
 
