@@ -19,7 +19,7 @@ nukkit.level.chunkUnloadError=Fehler beim Entladen eines Chunks: %1$2s
 nukkit.level.backgroundGeneration=Spawn-Gelände für Welt "%1$2s" wird im Hintergrund generiert
 nukkit.level.defaultError=Keine Standardwelt wurde geladen
 nukkit.level.preparing=Welt "%1$2s" wird vorbereitet
-nukkit.level.unloading=Welt "%1$2s" wird entladet
+nukkit.level.unloading=Welt "%1$2s" wird entladen
 nukkit.level.updating=Alte Speicherformat in Welt "%1$2s", Format wird konvertiert
 
 nukkit.server.start=Starte Minecraft Bedrock Edition Server, Version %1$2s
