@@ -104,9 +104,9 @@ nukkit.plugin.eventError=Não foi possível passar o evento '%1$2s' para '%2$2s'
 
 nukkit.resources.invalid-path=Caminho do pacote de recursos '%1$2s' existe e não é um diretório
 nukkit.resources.unknown-format=Não foi possível carregar '%1$2s' devido ao formado não reconhecido
-nukkit.resources.fail=Could not load '%1$2s': %2$2s
-nukkit.resources.success=Successfully loaded %1$2s resource packs
-nukkit.resources.zip.not-found=File '%1$2s' is not found
-nukkit.resources.zip.no-manifest='manifest.json' is not found
-nukkit.resources.zip.invalid-manifest='manifest.json' is invalid or incomplete
+nukkit.resources.fail=Não foi possível carregar '%1$2s': %2$2s
+nukkit.resources.success=%1$2s pacotes de recursos carregados com sucesso
+nukkit.resources.zip.not-found=Ficheiro '%1$2s' não encontrado
+nukkit.resources.zip.no-manifest='manifest.json' não foi encontrado
+nukkit.resources.zip.invalid-manifest='manifest.json' é inválido ou incompleto
 
