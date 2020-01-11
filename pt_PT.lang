@@ -73,37 +73,37 @@ nukkit.command.timings.timingsWrite=Timings escritos para %1$2s
 
 nukkit.crash.create=Um erro irrecuperável ocorreu e o servidor crashou. A criar um crash dump
 nukkit.crash.error=Não foi possível criar um crash dump: %1$2s
-nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
-nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
+nukkit.crash.submit=Por favor, envie o ficheiro "%1$2s" para o Arquivo de Crash e submeta o link na página de Reportar Bugs. Dê o máximo de informações possível.
+nukkit.crash.archive=O dump de crash foi automaticamente submetido para o Arquivo de Crashes. É possível vê-lo em %1$2s ou usar o ID #%2$2s.
 
-nukkit.debug.enable=LevelDB support enabled
+nukkit.debug.enable=Suporte para LevelDB ativado
 
-nukkit.bugreport.create=An error has been detected, creating a bug report.
-nukkit.bugreport.error=Could not create bug report: %1$2s
-nukkit.bugreport.archive=A bug report has been created: %1$2s
+nukkit.bugreport.create=Um erro foi detectado, a criar um relatório de bug.
+nukkit.bugreport.error=Não foi possível criar um relatório de bug: %1$2s
+nukkit.bugreport.archive=Um relatório de bug foi criado: %1$2s
 
-nukkit.player.invalidMove=%1$2s moved wrongly!
-nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, %8$2s)
-nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
-nukkit.player.invalidEntity=%1$2s tried to attack an invalid entity
+nukkit.player.invalidMove=%1$2s moveu erradamente!
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] entrou com id de entidade %4$2s em (%5$2s, %6$2s, %7$2s, %8$2s)
+nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] desconectou-se devido a %4$2s
+nukkit.player.invalidEntity=%1$2s tentou atacar uma entidade inválida
 
-nukkit.plugin.load=Loading %1$2s
-nukkit.plugin.restrictedName=Restricted name
-nukkit.plugin.incompatibleAPI=Incompatible API version
-nukkit.plugin.unknownDependency=Unknown dependency
-nukkit.plugin.circularDependency=Circular dependency detected
-nukkit.plugin.genericLoadError=Could not load plugin '%1$2s'
-nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' uses spaces in its name, this is discouraged
-nukkit.plugin.loadError=Could not load plugin '%1$2s': %2$2s
-nukkit.plugin.duplicateError=Could not load plugin '%1$2s': plugin exists
-nukkit.plugin.fileError=Could not load '%1$2s' in folder '%2$2s': %3$2s
-nukkit.plugin.commandError=Could not load command %1$2s for plugin %2$2s
-nukkit.plugin.aliasError=Could not load alias %1$2s for plugin %2$2s
-nukkit.plugin.deprecatedEvent=Plugin '%1$2s' has registered a listener for '%2$2s' on method '%3$2s', but the event is Deprecated.
-nukkit.plugin.eventError=Could not pass event '%1$2s' to '%2$2s': %3$2s on %4$2s
+nukkit.plugin.load=A carregar %1$2s
+nukkit.plugin.restrictedName=Nome restrito
+nukkit.plugin.incompatibleAPI=Versão de API incompatível
+nukkit.plugin.unknownDependency=Dependência desconhecida
+nukkit.plugin.circularDependency=Dependência circular detectada
+nukkit.plugin.genericLoadError=Não foi possível carregar o plugin '%1$2s'
+nukkit.plugin.spacesDiscouraged=O Plugin '%1$2s' usa espaços no seu nome, isto é desencorajado
+nukkit.plugin.loadError=Não foi possível carregar o plugin '%1$2s': %2$2s
+nukkit.plugin.duplicateError=Não foi possível carregar o plugin '%1$2s': plugin já existe
+nukkit.plugin.fileError=Não foi possível carregar '%1$2s' na pasta '%2$2s': %3$2s
+nukkit.plugin.commandError=Não foi possível carregar o comando %1$2s para o plugin %2$2s
+nukkit.plugin.aliasError=Não foi possível carregar o alias %1$2s para o plugin %2$2s
+nukkit.plugin.deprecatedEvent=Plugin '%1$2s' registrou um listener para '%2$2s' no método '%3$2s', mas o evento é deprecado.
+nukkit.plugin.eventError=Não foi possível passar o evento '%1$2s' para '%2$2s': %3$2s em %4$2s
 
-nukkit.resources.invalid-path=Resource packs path '%1$2s' exists and is not a directory
-nukkit.resources.unknown-format=Could not load '%1$2s' due to format not recognized
+nukkit.resources.invalid-path=Caminho do pacote de recursos '%1$2s' existe e não é um diretório
+nukkit.resources.unknown-format=Não foi possível carregar '%1$2s' devido ao formado não reconhecido
 nukkit.resources.fail=Could not load '%1$2s': %2$2s
 nukkit.resources.success=Successfully loaded %1$2s resource packs
 nukkit.resources.zip.not-found=File '%1$2s' is not found
